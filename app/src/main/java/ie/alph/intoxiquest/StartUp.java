@@ -19,7 +19,8 @@ public class StartUp extends AppCompatActivity {
         setContentView(R.layout.startup);
     }
 
-    public void OnClickSignIn(View view) {
-
+    public void OnClickStart(View view) {
+        Intent intent = new Intent(StartUp.this, MainActivity.class);
+        startActivity(intent);
     }
 }
